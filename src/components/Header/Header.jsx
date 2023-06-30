@@ -24,29 +24,7 @@ function Header() {
                   </Link>
                 </h1>
               </div>
-              <div className="offcanvas__header--menu__open ">
-                <a
-                  className="offcanvas__header--menu__open--btn"
-                  href="javascript:void(0)"
-                  data-offcanvas
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="ionicon offcanvas__header--menu__open--svg"
-                    viewBox="0 0 512 512"
-                  >
-                    <path
-                      fill="currentColor"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeMiterlimit="10"
-                      strokeWidth="32"
-                      d="M80 160h352M80 256h352M80 352h352"
-                    />
-                  </svg>
-                  <span className="visually-hidden">Offcanvas Menu Open</span>
-                </a>
-              </div>
+
               <div className="main__header--right d-flex align-items-center d-none d-lg-block">
                 <div className="header__menu menu_border--none">
                   <nav className="header__menu--navigation">
@@ -104,8 +82,9 @@ function Header() {
           </div>
         </div>
       </header>
+
       {/* <!-- Start Offcanvas header menu --> */}
-      <div className="offcanvas__header">
+      {/* <div className="offcanvas__header">
         <div className="offcanvas__inner">
           <div className="offcanvas__logo">
             <a className="offcanvas__logo_link" href="">
@@ -176,7 +155,50 @@ function Header() {
             </div>
           </nav>
         </div>
-      </div>
+      </div> */}
+
+      <nav className="navbar navbar-expand-lg fixed-bottom navbar-light bg-light">
+        <div className="container">
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div
+            className="collapse navbar-collapse "
+            id="navbarSupportedContent"
+          >
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <Link to={"/about"} className="nav-link">
+                  About
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to={"/services"} className="nav-link">
+                  Service
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to={"/portfolio"} className="nav-link">
+                  Portfolio
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to={"/contact"} className="nav-link">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       {/* <!-- End Offcanvas header menu --> */}
     </>
   );
