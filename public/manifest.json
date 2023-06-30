@@ -1,0 +1,50 @@
+{
+  "short_name": "Portfolio Website",
+  "name": "Muhammad Ranju official portfolio website",
+  "icons": [
+    {
+      "src": "/assets/img/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/assets/img/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/assets/img/favicon.ico",
+      "sizes": "24x24",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/assets/img/favicon.ico",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/assets/img/logo/nav-log-white.png",
+      "type": "image/png",
+      "sizes": "157*50"
+    },
+    {
+      "src": "/assets/img/logo/nav-log-white.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/img/logo/nav-log.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/assets/img/logo/nav-log.png",
+      "type": "image/png",
+      "sizes": "157*50"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#333333",
+  "background_color": "#EE5F38"
+}
