@@ -25,7 +25,7 @@ const Footer = () => {
             <span>
               <a
                 className="text__secondary"
-                href="https://gitgub.com/muhammadranju"
+                href="https://github.com/muhammadranju"
               >
                 MuhammadRanju
               </a>
