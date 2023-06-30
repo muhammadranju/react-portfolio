@@ -23,8 +23,11 @@ const Footer = () => {
             </span>{" "}
             by{" "}
             <span>
-              <a className="text__secondary" href="#">
-                Morex
+              <a
+                className="text__secondary"
+                href="https://gitgub.com/muhammadranju"
+              >
+                MuhammadRanju
               </a>
             </span>
             © 2023
